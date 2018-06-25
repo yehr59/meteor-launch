@@ -8,11 +8,11 @@ const outputDir = settings.METEOR_OUTPUT_ABSOLUTE;
 
 const buildFolder = {
   root: `${outputDir}/android`,
-  crosswalk: `${outputDir}/android/project/build/outputs/apk`,
+  crosswalk: `${outputDir}/android/project/build/outputs/apk/release`,
 };
 
 const unsignedApks = {
-  regular: `${buildFolder.root}/release-unsigned.apk`,
+  regular: `${buildFolder.root}/android-release-unsigned.apk`,
   crosswalkArmv7: `${buildFolder.crosswalk}/android-armv7-release-unsigned.apk`,
   crosswalkX86: `${buildFolder.crosswalk}/android-x86-release-unsigned.apk`,
 };
