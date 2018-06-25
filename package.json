@@ -2,7 +2,7 @@
   "name": "meteor-launch",
   "version": "0.3.4",
   "description": "Automating meteor builds to the AppStore, TestFlight, Hockey, Google Play, and more later.",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "babel src -d lib -s",
     "watch": "babel src --watch -d lib",
@@ -21,7 +21,7 @@
   },
   "preferGlobal": true,
   "bin": {
-    "launch": "./src/index.js"
+    "launch": "./lib/index.js"
   },
   "author": "johnthepink",
   "collaborators": [
